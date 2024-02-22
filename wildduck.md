@@ -58,10 +58,7 @@ api.js
 
 
 # LMTP
-
-
-    LMTP stands for "Local Mail Transfer Protocol." It's a protocol used for email transfer between mail servers within the same organization or administrative domain. LMTP is specifically designed for scenarios where email messages need to be delivered to mailboxes hosted on the same mail server or within the same mail server cluster.
-    Just like LMTP servers are commonly used in mail server setups where multiple mailboxes are hosted on the same server or within the same network infrastructure. They ensure efficient and reliable delivery of email messages between local users without the need for external email routing. Additionally, LMTP servers often support various features such as mailbox aliasing, filtering, and message queuing to enhance email delivery and management within the local environment.
+ LMTP stands for "Local Mail Transfer Protocol." It's a protocol used for email transfer between mail servers within the same organization or administrative domain. LMTP is specifically designed for scenarios where email messages need to be delivered to mailboxes hosted on the same mail server or within the same mail server cluster.Just like LMTP servers are commonly used in mail server setups where multiple mailboxes are hosted on the same server or within the same network infrastructure. They ensure efficient and reliable delivery of email messages between local users without the need for external email routing. Additionally, LMTP servers often support various features such as mailbox aliasing, filtering, and message queuing to enhance email delivery and management within the local environment.
 
 
 lmtp.js
@@ -75,8 +72,7 @@ lmtp.js
 
 
 # POP3
-
-    POP3, or Post Office Protocol version 3, is a standard protocol used by email clients to retrieve emails from a remote mail server. It operates through a simple transaction model where the client connects to the server, downloads messages, and then disconnects. Unlike IMAP, POP3 is stateless, meaning it does not retain information about the client's session between connections. By default, POP3 deletes messages from the server once they have been downloaded, though clients often offer an option to leave them on the server. While POP3 supports basic authentication mechanisms for user login, it lacks encryption for the authentication process and message transfer, potentially exposing sensitive information during transmission. With its primary focus on downloading messages to the client's device, POP3 offers limited functionality compared to IMAP, making it suitable for scenarios where users primarily access emails from a single device and prefer offline access to their messages.
+ POP3, or Post Office Protocol version 3, is a standard protocol used by email clients to retrieve emails from a remote mail server. It operates through a simple transaction model where the client connects to the server, downloads messages, and then disconnects. Unlike IMAP, POP3 is stateless, meaning it does not retain information about the client's session between connections. By default, POP3 deletes messages from the server once they have been downloaded, though clients often offer an option to leave them on the server. While POP3 supports basic authentication mechanisms for user login, it lacks encryption for the authentication process and message transfer, potentially exposing sensitive information during transmission. With its primary focus on downloading messages to the client's device, POP3 offers limited functionality compared to IMAP, making it suitable for scenarios where users primarily access emails from a single device and prefer offline access to their messages.
 
 
 
@@ -89,7 +85,7 @@ pop3.js
 
 server.js
 
-     the code is basically a robust mechanism for running the application in both single-process and cluster modes, managing worker processes, and handling errors.
+ the code is basically a robust mechanism for running the application in both single-process and cluster modes, managing worker processes, and handling errors.
 
 
 
