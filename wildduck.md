@@ -34,9 +34,8 @@ It employs efficient algorithms and data structures to optimize performance and 
 
 # PROTOCOLS
 
-IMAP: 
-
-    The IMAP server component enables clients to access and manage their email messages using the IMAP protocol. During startup, the server initializes IMAP listeners on the configured ports and binds to the specified network interfaces. Additionally, authentication mechanisms and SSL/TLS settings are configured based on the server's configuration file.
+# IMAP 
+  The IMAP server component enables clients to access and manage their email messages using the IMAP protocol. During startup, the server initializes IMAP listeners on the configured ports and binds to the specified network interfaces. Additionally, authentication mechanisms and SSL/TLS settings are configured based on the server's configuration file.
 
 
 imap.js
